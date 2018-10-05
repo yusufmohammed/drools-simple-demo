@@ -36,8 +36,10 @@ public class HelloWorldExample {
         
         // From the kie services, a container is created from the classpath
         KieContainer kc = ks.getKieClasspathContainer();
+	
+        
 
-        execute( kc );
+	execute( kc );
     }
 
     public static void execute( KieContainer kc ) {
