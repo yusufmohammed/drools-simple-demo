@@ -33,6 +33,7 @@ public class HelloWorldExample {
     public static final void main(final String[] args) {
         // KieServices is the factory for all KIE services 
         KieServices ks = KieServices.Factory.get();
+        System.err.println("done");
         
         // From the kie services, a container is created from the classpath
         KieContainer kc = ks.getKieClasspathContainer();
