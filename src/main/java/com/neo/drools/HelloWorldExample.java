@@ -34,7 +34,7 @@ public class HelloWorldExample {
         // KieServices is the factory for all KIE services 
         KieServices ks = KieServices.Factory.get();
         System.err.println("done");
-        
+         System.err.println("done");
         // From the kie services, a container is created from the classpath
         KieContainer kc = ks.getKieClasspathContainer();
 	
