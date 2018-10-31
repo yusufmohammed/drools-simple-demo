@@ -3,9 +3,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>C:\Users\admin/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>deployment</id>
+        <url>http://localhost:8088/nexus/content/repositories/releases</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -14,6 +14,14 @@
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>D:\tmp</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
