@@ -10,6 +10,7 @@ public class CheckGit implements java.io.Serializable {
 
     public CheckGit() {
 	System.err.println("Temp");
+System.err.println("Temp");
     }
 
 
