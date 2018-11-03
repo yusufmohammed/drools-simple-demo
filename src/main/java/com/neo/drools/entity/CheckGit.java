@@ -9,6 +9,7 @@ public class CheckGit implements java.io.Serializable {
     static final long serialVersionUID = 1L;
 
     public CheckGit() {
+        System.err.println("Check Git");
 
 
     }
